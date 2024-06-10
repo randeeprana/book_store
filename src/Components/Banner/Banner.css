@@ -1,0 +1,56 @@
+
+
+/* Banner styles */
+.banner-area {
+  background-image: -moz-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  background-image: -webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  background-image: -ms-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  padding: 50px 0;
+  color: #fff;
+}
+
+.banner-content {
+  color: #fff;
+  padding: 20px;
+}
+
+.banner-content h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  
+}
+
+.primary-btn:hover {
+  background-image: -moz-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  background-image: -webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  background-image: -ms-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.banner-right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

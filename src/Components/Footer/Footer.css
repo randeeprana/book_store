@@ -1,0 +1,67 @@
+.footer-area {
+  background-color: #222; /* Background color */
+  color: #fff; /* Text color */
+  padding: 60px 0;
+}
+
+.footer-area a {
+  color: #fff;
+}
+
+.footer-area a:hover {
+  color: #ff6347; /* Hover color for links */
+}
+
+.footer-area .single-footer-widget h6 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-area .single-footer-widget p {
+  color: #bbb; /* Slightly lighter color for regular text */
+  font-size: 14px;
+}
+
+.footer-area .footer-text {
+  color: #bbb;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer-area .social-widget .single-footer-widget a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.footer-area .social-widget .single-footer-widget a:hover {
+  color: #ff6347; /* Hover color for social icons */
+}
+
+.footer-area .form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.footer-area .form-inline input {
+  background-color: #333; /* Input field background */
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0;
+  width: 70%;
+}
+
+.footer-area .form-inline button {
+  background-color: #ff6347; /* Button background color */
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-area .form-inline button:hover {
+  background-color: #e5533b; /* Button hover color */
+}

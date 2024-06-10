@@ -1,0 +1,58 @@
+.call-to-action-area {
+  background-image: linear-gradient(360deg, #f45622 0%, #f53e54 100%);
+  padding: 50px 0;
+  color: #fff;
+}
+
+.section-gap {
+  padding: 50px 0;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.buttons:hover {
+  transform: translateY(-10px);
+}
+
+.buttons .icon {
+  font-size: 40px;
+  color: #f53e54;
+  margin-bottom: 10px;
+}
+
+.desc a {
+  text-decoration: none;
+}
+
+.desc p {
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.desc span {
+  font-weight: bold;
+}

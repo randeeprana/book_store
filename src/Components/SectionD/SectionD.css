@@ -1,0 +1,85 @@
+.price-area {
+  padding: 60px 0;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.single-price {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.single-price:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.single-price .price-bottom {
+  transition: background 0.3s ease;
+  padding: 20px 0;
+  background: transparent;
+}
+
+.single-price .price-bottom h1 {
+  color: #000;
+  margin: 0;
+}
+
+.single-price:hover .price-bottom {
+  background: linear-gradient(180deg, #ff6e7f, #ff9068);
+}
+
+.single-price:hover .price-bottom h1 {
+  color: #fff;
+}
+
+.single-price .price-bottom .primary-btn {
+  background: #000;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.single-price:hover .price-bottom .primary-btn {
+  background: #fff;
+  color: #ff6e7f;
+}
+
+.price-top h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.single-price .price-bottom h1 {
+ 
+  margin: 18px;
+}
+
+.price-bottom h1 span {
+  font-size: 1.5rem;
+  
+}
+
+.price-bottom .primary-btn:hover {
+  background: #333;
+}

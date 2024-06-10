@@ -1,0 +1,29 @@
+.fact-area {
+    background: url(../../img/fact-bg.jpg) center;
+    background-size: cover;
+}
+.section-gap {
+    padding: 120px 0;
+}
+.relative {
+    position: relative;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+color-text {
+  color: rgb(0, 0, 0);
+}
+
+.fact-area .overlay-bg {
+    background: rgba(0, 0, 0, 0.65);
+}
